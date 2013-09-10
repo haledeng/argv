@@ -5,7 +5,6 @@
     }else{
       this['args'] = definitioin();
     }
-
 }).call(this, function(){
     var args = {};
     debugger;
@@ -25,7 +24,6 @@
             }
         }
         return results;
-        
     }
     return args;
 });
